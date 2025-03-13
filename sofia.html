@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conception Pédagogique Moderne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2E8BC0;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #205375;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #2E8BC0;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            max-width: 500px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 0.8em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.8em;
+            background-color: #2E8BC0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .contact-form button:hover {
+            background-color: #145374;
+        }
+        footer {
+            background-color: #205375;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conception Pédagogique Moderne</h1>
+        <p>Découvrez les innovations en pédagogie et éducation moderne</p>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#pedagogies">Pédagogies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="accueil">
+            <h2>Bienvenue sur notre site</h2>
+            <p>Explorez une approche novatrice de la pédagogie et des méthodes éducatives.</p>
+        </section>
+        <section id="pedagogies">
+            <h2>Nos types de pédagogie</h2>
+            <p>Découvrez nos différentes approches pédagogiques adaptées à vos besoins éducatifs.</p>
+        </section>
+        <section id="contact">
+            <h2>Nous contacter</h2>
+            <form class="contact-form">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Conception Pédagogique Moderne</p>
+    </footer>
+</body>
+</html>
